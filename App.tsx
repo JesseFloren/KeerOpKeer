@@ -234,7 +234,7 @@ export default function App() {
     return <AppLoading/>
   }
   return (
-    <Column style={{flex: 1}}>
+    <Column style={{flex: 1, minHeight: 1200, minWidth: 600, backgroundColor: "black"}}>
       <Row style={{width: "100%"}}>
         <Column>
           <Row style={{marginBottom: 5}}>
